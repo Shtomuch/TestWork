@@ -1,0 +1,18 @@
+
+{
+    "scrape_interval_minutes": 1,
+    "proxy": {
+        "enabled": true,
+        "proxy_list": [
+            "http://43.153.207.93:3128",
+            "http://43.153.207.93:3128"
+        ]
+    },
+    "output_format": "json",
+    "output_file": "chains_data.json",
+    "log_file": "scraping.log",
+    "scroll_increment": 1000,
+    "max_attempts": 5,
+    "scroll_pause_time": 1.5
+}
+
